@@ -1,15 +1,3 @@
-import Menu from './Menu';
-import Head from './Head';
-import Header from './Header';
-import TypingText from './TypingText';
-import Background from './Background';
+import Head from "./Head";
 
-
-
-export {
-    Menu,
-    Head,
-    Header,
-    TypingText,
-    Background
-}
+export { Head };
