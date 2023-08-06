@@ -1,8 +1,9 @@
-import '../src/styles/css/index.css'
-import type { AppProps } from 'next/app'
-import { FunctionComponent } from 'react'
+// import '../src/styles/css/index.css'
+import type { AppProps } from "next/app";
+import { FunctionComponent } from "react";
 
+const _app: FunctionComponent<AppProps> = ({ Component, pageProps }) => (
+  <Component {...pageProps} />
+);
 
-const _app: FunctionComponent<AppProps> = ({ Component, pageProps }) => <Component {...pageProps} />
-
-export default _app
+export default _app;
